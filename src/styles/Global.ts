@@ -1,9 +1,16 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
+
+  :root {
+    --main-bg-color: #171430;
+    --main-card-bg-color: #231F4A;
+  }
+
   body {
     width: 100vw;
     height: 100vh;
+    background-color: var(--main-bg-color);
   }
 
   * {
